@@ -2,3 +2,28 @@ body {
    
     font-family: "tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif;
 }
+intro{
+    margin-top: 0%;
+    background-color: #1b9257;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 1% 5% 2% 4%;
+    color: rgba(250, 235, 215, 0.973);
+
+}header{
+    font-family: 'Brush Script MT', cursive;
+}
+.summary a{
+    
+    color: antiquewhite;
+    text-decoration: none;
+}
+.main{
+    margin-left: 10%;
+    width: 100%;
+      
+   /* background-image: url("./assets.images.garden.jfif");*/
+   background: no-repeat  url("https://images.unsplash.com/photo-1526397751294-331021109fbd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=168d3104470b5866d7561275761fd0e3");
+   background-size:cover ;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
