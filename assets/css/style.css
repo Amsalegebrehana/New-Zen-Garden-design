@@ -27,3 +27,28 @@ intro{
    background-size:cover ;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media screen and (max-width: 780px){ 
+    body{
+        overflow-x: hidden;
+    }
+    header{
+
+        font-size: 1.3em;
+    }
+    .summary{
+        font-size: 1.05em;
+        color: antiquewhite;
+        width: 40%;
+        margin-left: 60%;
+        padding-right: 5%;
+        padding-left: 2%;
+    }
+    .preamble h3{
+        font-size: 1.1em;
+    }
+    .preamble{
+        font-size: 1.0em;
+        background-color: #3b9468d7;
+        padding-left: 5%;
+        /*float: right;*/
+    }
