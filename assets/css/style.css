@@ -210,4 +210,24 @@ body {
         color: antiquewhite;
         
     }
-    
+    .requirements a{
+        color: antiquewhite;
+    }
+    .requirements{
+        background-color: rgba(158, 190, 179, 0.719);;
+        font-size: 1.4em;
+        color: antiquewhite;
+        padding: 7%;
+        width: 50%;
+    }
+    .wrapper{
+        background: rgba(29, 136, 179, 0.644);
+        border-radius: 10px;
+        display: flex;
+        padding:5%;
+        color: rgb(33, 160, 33);
+    }
+    .design-selection{
+        width: 33%;
+        font-size: 1.1em;
+    }
