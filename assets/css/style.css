@@ -231,3 +231,43 @@ body {
         width: 33%;
         font-size: 1.1em;
     }
+    .design-selection h3{
+        padding-left: 2%;
+        font-size: 1.5em;
+    }
+    .design-archives{
+        width: 33%;
+        font-size: 1.1em;
+    }
+    .design-archives h3{
+        padding-left: 2%;
+        font-size: 1.7em;
+    }
+    .zen-resources{
+        width: 33%;
+        font-size: 1.1em;
+    }
+    .zen-resources h3{
+        padding-left: 2%;
+        font-size: 1.7em;
+    }
+
+}
+.wrapper ul li a{
+    color: rgba(13, 71, 71, 0.925);
+}
+.design-selection ul li{
+    
+    list-style: none;
+    letter-spacing: 1px;
+}
+.design-archives ul li{
+    
+    list-style: none;
+    letter-spacing: 1px;
+}
+.zen-resources ul li{
+    
+    list-style: none;
+    letter-spacing: 1px;
+}
