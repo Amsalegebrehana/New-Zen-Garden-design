@@ -22,7 +22,7 @@ body {
     margin-left: 10%;
     width: 100%;
       
-   /* background-image: url("./assets.images.garden.jfif");*/
+    /*background: no-repeat url("garden.png") ;*/
    background: no-repeat  url("https://images.unsplash.com/photo-1526397751294-331021109fbd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=168d3104470b5866d7561275761fd0e3");
    background-size:cover ;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -57,6 +57,15 @@ body {
         color: antiquewhite;
         
     }
+    .explanation {
+        background-color: rgba(64, 102, 173, 0.562);
+        font-size: 1.0em;
+        color: antiquewhite;
+        padding: 7%;
+        margin-left: 15%;
+        width: 50%;
+        
+    }
     .participation h3{
         font-size: 1.2em;
         color: antiquewhite;
@@ -68,9 +77,9 @@ body {
     .participation{
         background-color: rgba(158, 190, 179, 0.719);
         
-        font-size: 1.0em;
-        color: antiquewhite;
-        
+        font-size: 1.1em;
+        color: rgb(238, 235, 230);
+        font-weight: 500;
         padding: 2%;
         width: 100%;
 
@@ -97,9 +106,11 @@ body {
         color: antiquewhite;
     }
     .requirements{
-        background-color: rgba(158, 190, 179, 0.719);;
-        font-size: 1.0em;
-        color: antiquewhite;
+        background-color: rgba(158, 190, 179, 0.719);
+        font-size: 1.1em;
+        color: rgb(238, 235, 230);
+        font-weight: 500;
+        
         padding: 7%;
         width: 90%;
     }
@@ -133,6 +144,15 @@ body {
     .zen-resources h3{
         padding-left: 2%;
         font-size: 1.3em;
+    }
+    footer{
+        background-color: #1b9257;
+        width: 35%;
+        padding: 2%;
+        font-size: .8em;
+        
+        font-weight: 300;
+        
     }
 }
 @media screen and (min-width: 780px){ 
@@ -251,6 +271,15 @@ body {
         padding-left: 2%;
         font-size: 1.7em;
     }
+    footer{
+        background-color: #1b9257;
+        width: 20%;
+        padding: 2%;
+        font-size: 1.2em;
+        
+        font-weight: 500;
+        
+    }
 
 }
 .wrapper ul li a{
@@ -270,4 +299,13 @@ body {
     
     list-style: none;
     letter-spacing: 1px;
+}
+
+footer a{
+    color:beige;
+    padding: 1%;
+    font-size: 1.2em;
+    
+    font-weight: 500;
+    
 }
